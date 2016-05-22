@@ -1,0 +1,31 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+header{
+  height:100px;
+  border-bottom:1px solid #ddd;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  /*opacity: 0;*/
+  background-color: transparent;
+  z-index:999999;
+}
+
+#content{
+  margin-top: 100px;
+}
+
+.center {
+  width: 200px; /* Ширина элемента в пикселах */
+  padding: 10px; /* Поля вокруг текста */
+  margin: auto; /* Выравниваем по центру */
+  background: #fc0; /* Цвет фона */
+}
